@@ -2,10 +2,14 @@
 
 Install with `npm i @rwalkow/random-id-generator`
 
-Example:
+**Example:**
+```
 const randomID = require('@rwalkow/randomid-generator');
 let someRandomId=randomID();
-or
+```
+**or**
+```
 const randomID = require('@rwalkow/randomid-generator');
 let someRandomId=randomID(12);
 where 12 is the length of generated id
+```
